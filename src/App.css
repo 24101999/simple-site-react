@@ -5,6 +5,11 @@ body {
   gap: 5rem;
   padding: 1rem 4rem;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
 button {
   cursor: pointer;
 }
