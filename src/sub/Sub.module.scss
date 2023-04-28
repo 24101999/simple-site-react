@@ -1,0 +1,48 @@
+.sub {
+  h2 {
+    color: #fff;
+  }
+  p {
+    color: #e2e1ff;
+  }
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  align-items: center;
+  background-color: #5d5dff;
+  .inp {
+    form {
+      display: flex;
+      gap: 1rem;
+      input {
+        width: 100%;
+        background-color: #4b4acf;
+        border: none;
+        color: #ababff;
+        outline: none;
+        padding: 1rem;
+        &::placeholder {
+          color: #ababff;
+        }
+      }
+      button {
+        border: none;
+        outline: none;
+        padding: 1rem 2rem;
+        color: #5d5dff;
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .sub {
+    flex-direction: column;
+    padding: 1rem;
+    .inp {
+      form {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}

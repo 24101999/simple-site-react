@@ -1,0 +1,28 @@
+.feed {
+  .title {
+    text-align: center;
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #9b9b9b;
+    }
+  }
+  .avatar {
+    padding: 1rem;
+    background-color: #33363a;
+    p {
+      color: #9b9b9b;
+    }
+  }
+  .avatares {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .avatares {
+    flex-direction: column;
+  }
+}

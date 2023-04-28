@@ -1,0 +1,26 @@
+.feed .title {
+  text-align: center;
+}
+.feed .title h2 {
+  color: #fff;
+}
+.feed .title p {
+  color: #9b9b9b;
+}
+.feed .avatar {
+  padding: 1rem;
+  background-color: #33363a;
+}
+.feed .avatar p {
+  color: #9b9b9b;
+}
+.feed .avatares {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .avatares {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Feed.module.css.map */

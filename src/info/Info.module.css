@@ -1,0 +1,73 @@
+.info .title {
+  text-align: center;
+}
+.info .title h2 {
+  color: #fff;
+}
+.info .title p {
+  color: #9a9a9a;
+}
+.info .infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.info .if {
+  gap: 5rem;
+  display: flex;
+  align-items: center;
+}
+.info .if li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #9a9a9a;
+}
+.info .if li svg {
+  color: #48bb78;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .info .if {
+    font-size: 14px;
+  }
+  .info .if img {
+    height: 280px;
+  }
+}
+@media (min-width: 320px) and (max-width: 699px) {
+  .infos {
+    gap: 1rem;
+  }
+  .info .textOrder1 {
+    order: 0;
+  }
+  .info .imgOrder1 {
+    order: 1;
+  }
+  .info .textOrder2 {
+    order: 0;
+  }
+  .info .imgOrder2 {
+    order: 1;
+  }
+  .info .textOrder3 {
+    order: 0;
+  }
+  .info .imgOrder3 {
+    order: 1;
+  }
+  .info .title {
+    font-size: 14px;
+  }
+  .info .if {
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  .info .if img {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=Info.module.css.map */
